@@ -322,9 +322,8 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
-.empty {
-  width: 0;
-  height: 0;
+.description {
+  display: none;
 }
 
 @keyframes animate {
@@ -449,6 +448,24 @@
   .social_card {
     grid-column: span 2;
     grid-row: span 1;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(0, 0, 0) 40%
+    );
+    z-index: 1000;
   }
 
 }

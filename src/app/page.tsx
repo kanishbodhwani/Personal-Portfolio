@@ -39,6 +39,9 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <div className={styles.description}>
+        Kanish Bodhwani
+      </div>
       <div className={styles.hey_card}>
         <h1>Hey there 👀</h1>
         <p style={poppins.style}> I&apos;m Kanish Bodhwani, a specialist in coding for both mobile and web applications, encompassing comprehensive design from the ground up. </p>

@@ -181,10 +181,8 @@ export default function Home() {
             <br />
             Over the past few years, I have worked with various startups and
             communities and helped them in achiving their goals. I&apos;ve built many
-            products that solves real world problems. My goal is to use open source to help organisations. 
-            For me, open source development has become second nature. Imagine writing a piece of
-            code that can benefit hundreds or even thousands of people. That is precisely what I 
-            intend to accomplish.
+            products that solves real world problems. I am involved in many open source communities like 
+            Google Developer Student Clubs, Developer Student Clubs, Rocket chat, Alias, FOSS Overflow etc.
             <br />
             <br />
             I&apos;m currently working on a product called Snapbase. It&apos;s an anonymous social media platform

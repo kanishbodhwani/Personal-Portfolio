@@ -470,3 +470,43 @@
   }
 
 }
+
+@media only screen and (max-width: 500px) {
+  .main {
+    margin-top: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    gap: 20px;
+    margin-bottom: 10rem;
+  }
+
+  .main div {
+    padding: 2rem 1rem;
+  }
+
+  .hey_card {
+    padding: 3rem !important;
+  }
+
+  .product_card, .product_card2 {
+    padding: 0.2rem !important;
+  }
+
+  .industries  {
+    margin-top: 1rem;
+  }
+
+  .industries p {
+    font-size: 1.5rem;
+  }
+
+  .project_card, .project_card2 {
+    padding: 0.2rem !important;
+  }
+
+  .inside_content h2 {
+    font-size: 1.5rem;
+  }
+
+}
